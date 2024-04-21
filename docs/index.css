@@ -369,7 +369,7 @@ body {
   width: 100%;
 }
 #locate-btn-open-map {
-  /* position: relative; */
+  background: white;
   top: -90px;
   left: 400px;
   display: inline-flex;
@@ -387,6 +387,7 @@ body {
   text-decoration: underline;
 }
 #locate-btn-open-map a {
+  background: white;
   border: none;
   color: #9e0000;
   font-family: Kadwa;
