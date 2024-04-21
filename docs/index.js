@@ -69,16 +69,16 @@ window.addEventListener("scroll", () => {
   const positionL = sectionLocate.getBoundingClientRect().top;
   const positionA = sectionAbout.getBoundingClientRect().top;
 
-  if (positionS + tabsHeight < 0) {
+  if (positionS - tabsHeight < 1) {
     removeClasses("header-top-tab-service");
   }
-  if (positionC + tabsHeight < 0) {
+  if (positionC - tabsHeight < 1) {
     removeClasses("header-top-tab-contact");
   }
-  if (positionL + tabsHeight < 0) {
+  if (positionL - tabsHeight < 1) {
     removeClasses("header-top-tab-locate");
   }
-  if (positionA + tabsHeight < 0) {
+  if (positionA - tabsHeight < 1) {
     removeClasses("header-top-tab-about");
   }
 });
