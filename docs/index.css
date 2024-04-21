@@ -331,7 +331,7 @@ body {
   color: #000;
   text-align: center;
   font-family: Kadwa;
-  font-size: 48px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -346,7 +346,7 @@ body {
 .contact-info {
   color: #000;
   font-family: Kadwa;
-  font-size: 32px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -354,7 +354,7 @@ body {
 .contact-info span {
   color: #000;
   font-family: Kadwa;
-  font-size: 32px;
+  font-size: 26px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -419,7 +419,7 @@ body {
   color: #606060;
   text-align: center;
   font-family: K2D;
-  font-size: 40px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -429,7 +429,7 @@ body {
   color: #000;
   text-align: right;
   font-family: K2D;
-  font-size: 40px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
