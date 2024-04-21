@@ -10,6 +10,7 @@ const sectionLocate = document.querySelector("#section-locate");
 const sectionAbout = document.querySelector("#section-about");
 const bodyCon = document.querySelector("#body-con");
 const locateMap = document.querySelector("#locate-map");
+const locateBtnMap = document.querySelector("#locate-btn-open-map");
 
 let dataPositionTabsCon = headerTab.dataset.position;
 
@@ -85,5 +86,8 @@ window.addEventListener("scroll", () => {
 });
 
 locateMap.addEventListener("click", () => {
+  window.open("https://maps.app.goo.gl/VXzFGFzNGnaCib7c7?g_st=ic");
+});
+locateBtnMap.addEventListener("click", () => {
   window.open("https://maps.app.goo.gl/VXzFGFzNGnaCib7c7?g_st=ic");
 });
