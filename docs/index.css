@@ -21,6 +21,7 @@ body {
   flex-direction: column;
   align-items: center;
   align-self: stretch;
+  /* position: fixed; */
 }
 
 #header-con-2 {
@@ -90,15 +91,29 @@ body {
   font-weight: 400;
   line-height: 72px; /* 75% */
 }
-#header-top-tabs {
+.header-top-tabs {
   display: flex;
   padding: 6px 96px;
   justify-content: space-between;
+  gap: 16px;
   align-items: center;
   align-content: center;
   align-self: stretch;
   flex-wrap: wrap;
-  background: rgba(217, 0, 0, 0.5);
+
+  background: rgba(255, 93, 93, 0.891);
+}
+.header-top-tabs-fixed {
+  display: flex;
+  padding: 6px 96px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  align-content: center;
+  align-self: stretch;
+  flex-wrap: wrap;
+  background: rgba(255, 93, 93, 0.891);
+  position: fixed;
 }
 .header-top-tabs-tabs-active {
   color: #9e0000;
@@ -135,7 +150,9 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  background: rgba(217, 0, 0, 0.5);
+
+  background: #d90000;
+  /* background: rgba(217, 0, 0, 0.5); */
 }
 #body-motto {
   color: #fff;
@@ -146,6 +163,9 @@ body {
   line-height: 46px; /* 95.833% */
   letter-spacing: 6.08px;
 }
+/* .header-top-tabs-fixed + .body-padding-top {
+  padding-top: 92px;
+} */
 
 .body-cont-con {
   display: flex;
