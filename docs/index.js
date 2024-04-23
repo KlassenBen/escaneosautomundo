@@ -44,6 +44,9 @@ headerTab.addEventListener("click", (e) => {
 });
 
 window.addEventListener("scroll", () => {
+  const widthPort = document.documentElement.clientWidth;
+  const finalWidthPort = document.documentElement.clientWidth - 286;
+  // headerTab.style.width = `${finalWidthPort}px`;
   const headerHeight = headerCon2.offsetHeight;
   const tabsHeight = headerTab.offsetHeight;
   const position = headerTab.getBoundingClientRect();
@@ -54,6 +57,7 @@ window.addEventListener("scroll", () => {
       headerTab.classList.add("header-top-tabs-fixed");
       headerTab.classList.remove("header-top-tabs");
       headerTab.dataset.position = "fixed";
+      // headerTab.style.width = `${finalWidthPort}px`;
       bodyCon.style.paddingTop = tabsHeight + 32 + "px";
     }
   }
