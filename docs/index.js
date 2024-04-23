@@ -92,6 +92,11 @@ window.addEventListener("scroll", () => {
 locateMap.addEventListener("click", () => {
   window.open("https://maps.app.goo.gl/VXzFGFzNGnaCib7c7?g_st=ic");
 });
-locateBtnMap.addEventListener("click", () => {
-  window.open("https://maps.app.goo.gl/VXzFGFzNGnaCib7c7?g_st=ic");
+bodyCon.addEventListener("click", (e) => {
+  if (e.target.dataset.gowhere === "openMap") {
+    window.open("https://maps.app.goo.gl/VXzFGFzNGnaCib7c7?g_st=ic");
+  }
+  if (e.target.dataset.gowhere === "openWhatsApp") {
+    window.open("https://w.app/EscaneosAutoMundo");
+  }
 });

@@ -287,7 +287,10 @@ body {
 }
 .service-text-header {
   align-self: stretch;
-  color: #353535;
+  color: #4b4b4b;
+  /* color: #898989; */
+  /* color: #343434; */
+  /* color: #605e5e; */
   font-family: K2D;
   font-size: 32px;
   font-style: normal;
@@ -296,7 +299,8 @@ body {
 }
 .service-text {
   align-self: stretch;
-  color: #353535;
+  color: #605e5e;
+  /* color: #343434; */
   font-family: K2D;
   font-size: 20px;
   font-style: normal;
@@ -414,6 +418,15 @@ body {
   line-height: normal;
   text-decoration-line: underline;
 }
+#info-whatsApp-contact {
+  color: #000cec;
+  font-family: Kadwa;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
 
 #location-map-con {
   /* height: 577px; */
@@ -461,23 +474,44 @@ body {
 }
 #about-text-header {
   align-self: stretch;
-  color: #202020;
-  text-align: center;
-  font-family: K2D;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-#about-text-header {
-  align-self: stretch;
-  color: #606060;
+  color: #343434;
+  /* color: #605e5e; */
   text-align: center;
   font-family: K2D;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+#about-text {
+  align-self: stretch;
+  color: #605e5e;
+  /* color: #343434; */
+  text-align: center;
+  font-family: K2D;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#about-name-con {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 64px;
+  align-self: stretch;
+}
+#about-name-con-3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#about-name-con-2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background: url(images/william.jpg) lightgray 50% / cover no-repeat;
 }
 #about-name {
   align-self: stretch;

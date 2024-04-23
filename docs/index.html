@@ -117,13 +117,11 @@
               </p>
             </div>
             <div class="service-btn-con">
-              <button class="service-btn-locate">
-                <a href="https://maps.app.goo.gl/VXzFGFzNGnaCib7c7?g_st=ic"
-                  >Ubicar</a
-                >
+              <button class="service-btn-locate" data-gowhere="openMap">
+                Ubicar
               </button>
-              <button class="service-btn-contact">
-                <a href="https://w.app/EscaneosAutoMundo">Contactar</a>
+              <button class="service-btn-contact" data-gowhere="openWhatsApp">
+                Contactar
               </button>
             </div>
           </div>
@@ -153,13 +151,11 @@
               </p>
             </div>
             <div class="service-btn-con">
-              <button class="service-btn-locate">
-                <a href="https://maps.app.goo.gl/VXzFGFzNGnaCib7c7?g_st=ic"
-                  >Ubicar</a
-                >
+              <button class="service-btn-locate" data-gowhere="openMap">
+                Ubicar
               </button>
-              <button class="service-btn-contact">
-                <a href="https://w.app/EscaneosAutoMundo">Contactar</a>
+              <button class="service-btn-contact" data-gowhere="openWhatsApp">
+                Contactar
               </button>
             </div>
           </div>
@@ -189,13 +185,11 @@
               </p>
             </div>
             <div class="service-btn-con">
-              <button class="service-btn-locate">
-                <a href="https://maps.app.goo.gl/VXzFGFzNGnaCib7c7?g_st=ic"
-                  >Ubicar</a
-                >
+              <button class="service-btn-locate" data-gowhere="openMap">
+                Ubicar
               </button>
-              <button class="service-btn-contact">
-                <a href="https://w.app/EscaneosAutoMundo">Contactar</a>
+              <button class="service-btn-contact" data-gowhere="openWhatsApp">
+                Contactar
               </button>
             </div>
           </div>
@@ -212,8 +206,9 @@
           <div id="contact-con-2">
             <p class="contact-info">
               WhatsApp:
-              <span
-                ><a href="https://w.app/EscaneosAutoMundo">toca aqui</a></span
+              <span id="info-whatsApp-contact" data-gowhere="openWhatsApp">
+                <!-- <a href="https://w.app/EscaneosAutoMundo"></a> -->
+                toca aqui</span
               >
             </p>
             <p class="contact-info">Telegram: <span>+52 996 963 2493</span></p>
@@ -227,7 +222,9 @@
         </div>
         <div id="locate-map-con">
           <img id="locate-map" src="images/map.JPG" alt="" />
-          <button id="locate-btn-open-map">Abrir en google mapas</button>
+          <button id="locate-btn-open-map" data-gowhere="openMap">
+            Abrir en google mapas
+          </button>
         </div>
       </div>
       <div id="section-about" class="body-cont-con">
@@ -236,8 +233,7 @@
         </div>
         <div id="about-con">
           <p id="about-text-header">
-            Eget ultrices id nisl faucibus imperdiet dui mauris. Quam risus urna
-            in arcu ut integer.
+            Eget ultrices id nisl faucibus imperdiet dui mauris.
           </p>
           <p id="about-text">
             Eget ultrices id nisl faucibus imperdiet dui mauris. Quam risus urna
@@ -249,7 +245,12 @@
             adipiscing facilisi.
           </p>
         </div>
-        <p id="about-name">Wiliam Bartsch</p>
+        <div id="about-name-con">
+          <div id="about-name-con-2"></div>
+          <div id="about-name-con-3">
+            <p id="about-name">Wiliam Bartsch</p>
+          </div>
+        </div>
       </div>
     </div>
   </body>
